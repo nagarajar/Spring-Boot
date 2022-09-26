@@ -1,0 +1,17 @@
+my:
+  db:
+    driver: Oracle
+    pwd: raghu
+    url: jdbc-oracle
+    user: ashok
+---
+my:
+  db:
+    driver: Postgress
+    url: jdbc-PSG
+    
+---
+my:
+  db:
+    driver: MySQL
+    url: jdbc-mysql

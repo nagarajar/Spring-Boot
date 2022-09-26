@@ -1,0 +1,16 @@
+my:
+  app:
+    host: localhost
+    port: 8090
+    username: nagaraja
+    password: nagu@1122
+    protocols:
+    - A
+    - B
+    - C
+    headers:
+      C1: M1
+      c2: M2
+    cob:
+      provider: Udemy
+      expExist: 2022

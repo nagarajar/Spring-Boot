@@ -1,0 +1,14 @@
+package com.app;
+
+import org.springframework.boot.CommandLineRunner;
+
+public class TestMyServiceData implements CommandLineRunner 
+{
+	private MyServiceData service;
+	
+	@Override
+	public void run(String... args) throws Exception {
+		System.out.println(service);						
+	}
+
+}

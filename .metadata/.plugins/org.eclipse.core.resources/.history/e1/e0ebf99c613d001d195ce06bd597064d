@@ -1,0 +1,25 @@
+my:
+  db:
+    driver: Oracle
+    pwd: raghu
+    url: jdbc-oracle
+    user: ashok
+---
+spring:
+  profiles:
+    active:
+    - prod
+my:
+  db:
+    driver: Postgress
+    url: jdbc-PSG
+    
+---
+spring:
+  profiles:
+    active:
+    - qa
+my:
+  db:
+    driver: MySQL
+    url: jdbc-mysql

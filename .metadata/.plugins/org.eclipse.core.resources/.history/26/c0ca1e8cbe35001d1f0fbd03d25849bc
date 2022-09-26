@@ -1,0 +1,22 @@
+package com.app.nagu;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class DataBaseCon 
+{
+	@Value("${my.db.driver}")
+	private String driver;
+	private String url;
+	private String user;
+	private String password;
+	
+	@Override
+	public String toString() {
+		return "DataBaseCon [driver=" + driver + ", url=" + url + ", user=" + user + ", password=" + password + "]";
+	}
+	
+	
+	
+}

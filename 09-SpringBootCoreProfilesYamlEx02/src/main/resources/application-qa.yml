@@ -1,0 +1,4 @@
+my:
+  db:
+    driver: MySQL
+    url: jdbc-mysql

@@ -1,0 +1,7 @@
+my:
+  app:
+    host: localhost
+    port: 8090
+    username: nagaraja
+    password: nagu@1122
+    
